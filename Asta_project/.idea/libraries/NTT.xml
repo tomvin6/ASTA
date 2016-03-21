@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NTT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/NTT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

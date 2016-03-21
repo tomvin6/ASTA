@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\git\FieldTestTool\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\classes-d37fc0a5441d9b48291620f7eb10aeaedcec711c.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\SharedUtilities.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8ea4072f9f3781c83cdafdd2f35e1b3e6ef327c0">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\SharedUtilities-fc5ab4db7300dc4884eea23afbc3502f87f9d102.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\apache-commons-net.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="765820f6052742ebad5bcd832e44bd5a6dc2b267">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\apache-commons-net-fa2d34de4c142ca5c06e88fb0096df338bfe6c6e.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\GraphView-4.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="20768335ab718b2a912f9155f9d1893d5fc931ce">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\GraphView-4.0.0-2d90290404ed915b2db8a4ae798cfaf278b27e6a.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\simpleftp.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4d485dff16942a0618ab9188e4ac3eff1b5fba4c">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\simpleftp-a8f3144de1d1af97feabe8616e306ac555d1e025.jar" />
+    </item>
+    <item
+        jar="C:\Users\vtom\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\vtom\AndroidStudioProjects\FieldTestTool\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-034625640b6c28cd1d03eb6efb394d66a2f69c1f.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\NTT.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bbb1b708b9828847595361976665d19583accfcf">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\NTT-3a63ab10e55fd4c9087ad7ae123ccafa51589790.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\classes-82f0e842eb385792771d33f6d423672e9c387cce.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\simple-xml-2.7.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="083623424bcfa03bd598e709765bad0816c2375d">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\simple-xml-2.7.1-777446f91a6bdb0c52f33f10d0a54d032da5934c.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0d5eb0efb7827e9e712e92ddac146452bef19088.jar" />
+    </item>
+    <item
+        jar="C:\git\FieldTestTool\app\libs\opencsv-3.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2858373af0681aafd3d79fdd533cc9127959c9ea">
+        <dex dex="C:\git\FieldTestTool\app\build\intermediates\pre-dexed\debug\opencsv-3.3-614770d36fe4c63b618d4a2f9314f9585f7b5b0b.jar" />
+    </item>
+
+</items>

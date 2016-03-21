@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.1'
+
+    defaultConfig {
+        applicationId "com.example"
+        minSdkVersion 11
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/achartengine-1.1.0.jar')
+    compile files('libs/apache-commons-net.jar')
+    compile files('libs/GraphView-4.0.0.jar')
+    compile files('libs/NTT.jar')
+    compile files('libs/opencsv-3.3.jar')
+    compile files('libs/SharedUtilities.jar')
+    compile files('libs/simple-xml-2.7.1.jar')
+    compile files('libs/simpleftp.jar')
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+}

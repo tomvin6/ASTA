@@ -1,0 +1,7 @@
+[gerrit]
+host=vgitil09
+port=29418
+project=validation/ASTA
+defaultbranch=master
+defaultremote=origin
+defaultrebase=0

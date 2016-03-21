@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example"
+    android:versionCode="1"
+    android:versionName="2.0"> <!-- android:sharedUserId="android.uid.system">! -->
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_SUPERUSER"/> -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".astaScreens.MainMenuActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Task.TcpTaskRunnerActivity"
+            android:screenOrientation="portrait">
+
+            <!-- //dandroid:theme="@style/DialogTheme" > -->
+        </activity>
+        <activity android:name=".Task.NewServerActivity">
+
+            <!-- //dandroid:theme="@style/DialogTheme" > -->
+        </activity>
+        <activity
+            android:name=".Task.TestStatusActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".astaScreens.SettingsActivity" />
+        <activity
+            android:name=".astaScreens.LastResultsActivity"
+            android:label="Last Results" />
+        <activity android:name=".astaScreens.LastTestStatus">
+
+            <!-- //dandroid:theme="@style/DialogTheme" > -->
+        </activity>
+        <activity android:name=".Task.NewNttServerActivity">
+
+            <!-- //dandroid:theme="@style/DialogTheme" > -->
+        </activity>
+        <activity android:name=".astaScreens.CostumizeTimeSetter">
+
+            <!-- //dandroid:theme="@style/DialogTheme" > -->
+        </activity>
+
+        <service android:name=".Task.FtpTaskRunner" />
+        <service android:name=".astaScreens.OldFilesCleanerService" />
+
+        <receiver android:name=".Listeners.LoggerReceiver">
+            <intent-filter>
+                <action android:name="com.example.LOGBACK_INTENT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".astaScreens.ManageServersActivity"
+            android:label="@string/title_activity_manage_servers" />
+        <activity android:name=".astaScreens.SpeedTestTypeChooser" />
+        <activity android:name=".astaScreens.UDPServerClientChooser" />
+        <activity android:name=".astaScreens.UdpServer" />
+        <activity
+            android:name=".astaScreens.UdpClientActivity"
+            android:label="@string/title_activity_udp_client"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

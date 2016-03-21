@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="listArray">
+		<item>50 Points</item>
+		<item>100 Points</item>
+		<item>200 Points</item>
+		<item>500 Points</item>
+		<item>1000 Points</item>
+	</string-array>
+	<string-array name="listValues">
+		<item>50</item>
+		<item>100</item>
+		<item>200</item>
+		<item>500</item>
+		<item>1000</item>
+	</string-array>
+    <string-array name="historyArray">
+        <item>No History</item>
+        <item>1 Day</item>
+        <item>2 Day</item>
+        <item>4 Day</item>
+        <item>7 Day</item>
+        <item>No Limit (Not Recommended)</item>
+    </string-array>
+    <string-array name="historyValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>7</item>
+        <item>365</item>
+    </string-array>
+    <!-- Units!-->
+    <string-array name="unitArray">
+        <item>Kbps</item>
+        <item>Mb/s</item>
+    </string-array>
+    <string-array name="unitValues">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+<!-- graph update frequency!-->
+    <string-array name="graphFreqStrings">
+        <item>1 Second</item>
+        <item>5 Seconds</item>
+        <item>10 Seconds</item>
+    </string-array>
+    <string-array name="graphFreqValues">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+</resources>

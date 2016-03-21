@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="simpleftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/simpleftp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

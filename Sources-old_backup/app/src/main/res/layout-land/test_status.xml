@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+
+	<!-- Here you put the rest of your current view -->
+
+	<RelativeLayout
+		android:id="@+id/relative_layout0"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp" >
+
+		<TextView
+			android:id="@+id/task_type"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentTop="true"
+			android:layout_centerInParent="true"
+			android:text="Test Status"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:textSize="15sp" />
+
+		<LinearLayout
+			android:id="@+id/server_layout"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_below="@+id/task_type"
+			android:paddingTop="5dp" >
+
+			<TextView
+				android:id="@+id/TextView01"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="Test Mode:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/mode_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_below="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="none"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/TextView02"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="Status:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/status_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/mode_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="none"
+				android:textSize="15sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/iterations_layout"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_alignLeft="@+id/server_layout"
+			android:layout_below="@+id/ul_session_layout"
+			android:paddingTop="5dp" >
+
+			<TextView
+				android:id="@+id/TextView05"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="DN Throughput:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/dl_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="0Mbps"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/TextView06"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="Iterations"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/iterations_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="0/0"
+				android:textSize="15sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/limitation_layout"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_alignLeft="@+id/server_layout"
+			android:layout_below="@+id/server_layout"
+			android:paddingTop="5dp" >
+
+			<TextView
+				android:id="@+id/TextView03"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="Sent:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/sent_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="0Mb:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/TextView04"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="UP Throughput:"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/up_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="0Mbps"
+				android:textSize="15sp" />
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/ul_session_layout"
+			android:layout_width="match_parent"
+			android:layout_height="20dp"
+			android:layout_alignLeft="@+id/server_layout"
+			android:layout_below="@+id/limitation_layout"
+			android:paddingTop="5dp" >
+
+			<TextView
+				android:id="@+id/TextView08"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_weight="25"
+				android:text="Received: "
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/received_param1"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="0Mb"
+				android:textSize="15sp" />
+
+			<TextView
+				android:id="@+id/buffer_param"
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:layout_alignLeft="@+id/server_layout"
+				android:layout_gravity="center"
+				android:layout_weight="25"
+				android:text="Buffer size"
+				android:textSize="15sp" />
+		</LinearLayout>
+
+		<com.jjoe64.graphview.GraphView
+			android:id="@+id/graph"
+			android:layout_width="match_parent"
+			android:layout_height="200dip"
+			android:layout_below="@+id/iterations_layout" />
+	</RelativeLayout>
+
+</ScrollView>

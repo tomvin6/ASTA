@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ASTA Speed Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_values">add values</string>
+    <string name="new_series">new series</string>
+    <string name="y">y</string>
+    <string name="x">x</string>
+    <string name="add">add</string>
+    <!-- TaskRunnerActivity -->
+    <string name="headline1">headline1</string>
+    <string name="headline2">headline2</string>
+    <string name="headline3">headline3</string>
+    <string name="servers">Choose a server</string>
+    <!-- Preferences screen -->
+    <string name="graph_pref_title">Graph Preferences</string>
+    <string name="pref_points_sum">if max data count is reached, the oldest data values will be lost</string>
+    <string name="pref_points_title">Enable Customize Points</string>
+    <string name="pref_syncConnectionTypes_default">def</string>
+    <string name="graph_points_title">Change Max Points Data</string>
+    <string name="test_history_title">Tests History</string>
+    <string name="test_history_summary">Choose how much tests would you like to save in storage</string>
+    <string name="testCurrentlyRunning">Test is currently running! do you reall
+        y want to exit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="title_activity_manage_servers">ManageServersActivity</string>
+    <string name="description">description</string>
+    <string name="title">title</string>
+    <string name="measurement_units">Measurement units</string>
+    <string name="measurement_unit_sammary">Change measurement units method (Kbps / Mb/s)</string>
+    <string name="graph_update_freq">Graph update frequency</string>
+    <string name="graph_freq_summary">How often the graph should be updated</string>
+    <string name="title_activity_udp_client">UdpClientActivity</string>
+
+</resources>
